@@ -1,0 +1,38 @@
+# Default configuration for Video Similarity Learning
+
+# Data configuration
+data_dir: "data/videos"
+metadata_file: "sample_metadata.csv"
+pairs_file: "similarity_pairs.csv"
+
+# Model configuration
+model_type: "similarity"  # "similarity" or "classification"
+backbone: "resnet50"      # "resnet18", "resnet50", "resnet101"
+feature_dim: 512
+num_frames: 30
+pooling_method: "mean"    # "mean", "max", "attention"
+similarity_method: "cosine"  # "cosine", "euclidean", "learned"
+num_classes: 10
+
+# Training configuration
+batch_size: 8
+num_epochs: 50
+learning_rate: 1e-4
+weight_decay: 1e-4
+optimizer: "adam"         # "adam" or "sgd"
+scheduler: "step"         # "step" or "cosine"
+loss_margin: 1.0
+
+# Data loading configuration
+num_workers: 4
+image_size: 224
+
+# Logging and saving configuration
+checkpoint_dir: "checkpoints"
+save_freq: 5
+wandb_project: "video-similarity-learning"
+wandb_experiment: null
+
+# System configuration
+device: "auto"            # "auto", "cpu", "cuda"
+seed: 42 

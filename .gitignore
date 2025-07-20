@@ -1,0 +1,8 @@
+data/
+notebooks/01_Data_Exploration.ipynb
+notebooks/02_Feature_Extraction.ipynb
+notebooks/03_Model_Architecture.ipynb
+notebooks/04_Training_Setup.ipynb
+notebooks/05_Model_Training.ipynb
+notebooks/06_Final_Project.py
+STUDENT_GUIDE.md
