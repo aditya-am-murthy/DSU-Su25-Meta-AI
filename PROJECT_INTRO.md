@@ -63,7 +63,7 @@ Convolutional Neural Networks (CNNs) are a specialized type of neural network de
 - **Video**: [DeepLearning.AI: Convolutional Neural Networks](https://www.youtube.com/watch?v=ArPaHHRTSJw) - An accessible overview of CNNs by Andrew Ng.
 
 ### Video Data in This Project
-For our dataset, videos are treated as a sequential collection of image frames. In the data exploration notebooks, we will perform image analysis on these individual frames to extract features and understand patterns. This analysis will serve as the foundation for building our video similarity analysis model.
+For our dataset, videos are treated as a sequential collection of image frames. In the data exploration notebooks, we will perform image analysis on these individual frames to extract features and understand patterns. This analysis will serve as the foundation for building our video similarity analysis model
 
 **Resources**:
 - **Website**: [Analytics Vidhya: Video Analysis with CNNs](https://www.analyticsvidhya.com/blog/2021/09/a-comprehensive-guide-to-video-analysis-using-deep-learning/) - Explains how videos are processed as sequences of frames for analysis.
