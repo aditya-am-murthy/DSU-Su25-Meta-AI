@@ -31,7 +31,7 @@ To get started, follow the steps in the `README.md` to set up the code environme
 ### Images and Pixel Values
 In computers, images are represented as grids of pixels, where each pixel is a tiny square of color. Each pixel is defined by numerical values representing its color intensity. For grayscale images, a single value (typically 0 to 255) represents the brightness, where 0 is black and 255 is white. For color images, pixels are represented using the RGB model, with three values (red, green, blue), each ranging from 0 to 255, to define the color.
 
-![Grayscale Image Representation](https://www.researchgate.net/publication/333202093/figure/fig1/AS:760280803975169@1558276477576/A-grayscale-image-as-matrix-of-numbers-111-Convolution-Operator-The-reason-for.jpg)
+![Grayscale Image Representation](https://miro.medium.com/v2/resize:fit:1400/1*mJRpVgFUgft9ddFFBRz7Pw.png)
 *Example: A grayscale image where each pixel is a single intensity value.*
 
 ![RGB Image Representation](https://miro.medium.com/v2/resize:fit:1400/1*8k6Yk6MhED2SxF2zLctG7g.png)
@@ -46,8 +46,8 @@ Convolutional Neural Networks (CNNs) are a specialized type of neural network de
 - **Feature Extraction**: Early layers in a CNN detect low-level features (e.g., edges, corners), while deeper layers combine these into high-level features (e.g., objects or parts of objects).
 - **Pooling Layers**: Pooling layers reduce the spatial dimensions of feature maps (e.g., by taking the maximum or average value in a region), making the model more computationally efficient and robust to small variations in the input.
 
-![CNN Architecture](https://via.placeholder.com/150?text=CNN+Architecture)
-*Example: A CNN with convolutional and pooling layers for feature extraction.*
+![CNN Architecture](https://cdn-images-1.medium.com/max/659/1*ypIfJX7iWX6h6Kbkfq85Kg.png)
+*Example: Convolutional and pooling layers for feature extraction.*
 
 ### Video Data in This Project
 For our dataset, videos are treated as a sequential collection of image frames. In the data exploration notebooks, we will perform image analysis on these individual frames to extract features and understand patterns. This analysis will serve as the foundation for building our video similarity analysis model
