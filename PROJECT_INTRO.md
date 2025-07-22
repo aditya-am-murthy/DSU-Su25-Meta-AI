@@ -53,15 +53,8 @@ Convolutional Neural Networks (CNNs) are a specialized type of neural network de
 For our dataset, videos are treated as a sequential collection of image frames. In the data exploration notebooks, we will perform image analysis on these individual frames to extract features and understand patterns. This analysis will serve as the foundation for building our video similarity analysis model
 
 **Resources**:
-- **Website**: [Analytics Vidhya: Video Analysis with CNNs](https://www.analyticsvidhya.com/blog/2021/09/a-comprehensive-guide-to-video-analysis-using-deep-learning/) - Explains how videos are processed as sequences of frames for analysis.
-- **Video**: [Two Minute Papers: Video Analysis with Deep Learning](https://www.youtube.com/watch?v=6PeynI8f0Ew) - A concise explanation of video analysis using deep learning techniques
-
-## References
-- [Towards Data Science: Understanding Images with Pixels](https://towardsdatascience.com/understanding-images-with-pixels-4f513c6a8b1e)
-- [Computerphile: How Computers Store Images](https://www.youtube.com/watch?v=15aqFQQVBWU) (YouTube)
-- [3Blue1Brown: Neural Networks Explained](https://www.3blue1brown.com/topics/neural-networks)
-- [3Blue1Brown: But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk) (YouTube)
-- [Stanford CS231n: Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/)
-- [DeepLearning.AI: Convolutional Neural Networks](https://www.youtube.com/watch?v=ArPaHHRTSJw) (YouTube)
-- [Analytics Vidhya: Video Analysis with CNNs](https://www.analyticsvidhya.com/blog/2021/09/a-comprehensive-guide-to-video-analysis-using-deep-learning/)
-- [Two Minute Papers: Video Analysis with Deep Learning](https://www.youtube.com/watch?v=6PeynI8f0Ew) (YouTube)
+- [Towards Data Science: A Comprehensive Guide to Image Processing: Fundamentals](https://towardsdatascience.com/image-processing-4391c5bcef78/)
+- [IBM: What are Convolutional Neural Networks?](https://www.youtube.com/watch?v=QzY57FaENXg)
+- [3Blue1Brown: Neural Networks Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [3Blue1Brown: But what is a neural network?](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+- [Analytics Vidhya: Video Analysis with CNNs](https://www.youtube.com/watch?v=boZ6-vj7apo) - Explains how videos are processed as sequences of frames for analysis.
