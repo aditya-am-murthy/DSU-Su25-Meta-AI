@@ -67,7 +67,7 @@ For our dataset, videos are treated as a sequential collection of image frames. 
 
 **Resources**:
 - **Website**: [Analytics Vidhya: Video Analysis with CNNs](https://www.analyticsvidhya.com/blog/2021/09/a-comprehensive-guide-to-video-analysis-using-deep-learning/) - Explains how videos are processed as sequences of frames for analysis.
-- **Video**: [Two Minute Papers: Video Analysis with Deep Learning](https://www.youtube.com/watch?v=6PeynI8f0Ew) - A concise explanation of video analysis using deep learning techniques.
+- **Video**: [Two Minute Papers: Video Analysis with Deep Learning](https://www.youtube.com/watch?v=6PeynI8f0Ew) - A concise explanation of video analysis using deep learning techniques
 
 ## References
 - [Towards Data Science: Understanding Images with Pixels](https://towardsdatascience.com/understanding-images-with-pixels-4f513c6a8b1e)
