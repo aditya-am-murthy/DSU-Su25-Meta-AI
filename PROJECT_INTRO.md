@@ -31,10 +31,10 @@ To get started, follow the steps in the `README.md` to set up the code environme
 ### Images and Pixel Values
 In computers, images are represented as grids of pixels, where each pixel is a tiny square of color. Each pixel is defined by numerical values representing its color intensity. For grayscale images, a single value (typically 0 to 255) represents the brightness, where 0 is black and 255 is white. For color images, pixels are represented using the RGB model, with three values (red, green, blue), each ranging from 0 to 255, to define the color.
 
-![Grayscale Image Representation](https://via.placeholder.com/150?text=Grayscale+Image)
+![Grayscale Image Representation](https://www.researchgate.net/publication/333202093/figure/fig1/AS:760280803975169@1558276477576/A-grayscale-image-as-matrix-of-numbers-111-Convolution-Operator-The-reason-for.jpg)
 *Example: A grayscale image where each pixel is a single intensity value.*
 
-![RGB Image Representation](https://via.placeholder.com/150?text=RGB+Image)
+![RGB Image Representation](https://miro.medium.com/v2/resize:fit:1400/1*8k6Yk6MhED2SxF2zLctG7g.png)
 *Example: An RGB image where each pixel is represented by three values (R, G, B).*
 
 ### Neural Networks
