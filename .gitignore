@@ -1,6 +1,3 @@
 data/
-notebooks/03_Model_Architecture.ipynb
-notebooks/04_Training_Setup.ipynb
-notebooks/05_Model_Training.ipynb
 notebooks/06_Final_Project.py
 STUDENT_GUIDE.md

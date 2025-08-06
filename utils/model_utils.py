@@ -77,7 +77,7 @@ class VideoFeatureExtractor(nn.Module):
         batch_size, num_frames = frames.shape[:2]
         
         # Reshape frames for batch processing
-        frames_flat = frames.view(-1, *frames.shape[2:])  # (batch_size * num_frames, channels, height, width)
+        frames_flat = frames.view(frames.shape[0] * frames.shape[1], *frames.shape[2:]) # (batch_size * num_frames, channels, height, width)
         
         # Extract features from each frame
         frame_features = self.backbone_model(frames_flat)  # (batch_size * num_frames, backbone_output_dim, 1, 1)
